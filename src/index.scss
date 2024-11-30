@@ -1,9 +1,9 @@
-
-
+// Tailwind utilities
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+// Font family import
 @font-face {
   font-family: "DINCondensed";
   src: url("./assets/fonts/DINCondensedBold.ttf") ;
@@ -12,3 +12,18 @@
   font-family: "GillSans";
   src: url("./assets/fonts/GillSans.otf") ;
 }
+
+// Default styling
+*{
+  box-sizing: border-box;
+  color:black;
+  text-decoration: none;
+}
+body {
+  margin: 0;
+  padding:0;
+}
+a:hover, button:hover {
+  cursor: pointer;
+}
+
