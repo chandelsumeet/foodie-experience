@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         dinBold: ["DINCondensed", "sans-serif"],
+        gillSans: ["GillSans", "sans-serif"],
       },
     },
   },
