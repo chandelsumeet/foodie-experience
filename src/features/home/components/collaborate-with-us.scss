@@ -1,0 +1,13 @@
+
+.info-section:before {
+    content:"";
+    width:200px;
+    height: 15px;
+    background-color: white;
+    display: block;
+    position: absolute;
+    z-index: -1;
+    top:60%;
+    right: 55%;
+
+}

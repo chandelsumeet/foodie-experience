@@ -8,6 +8,9 @@ module.exports = {
         dinBold: ["DINCondensed", "sans-serif"],
         gillSans: ["GillSans", "sans-serif"],
       },
+      colors: {
+        primary: "rgba(255,218,201,1)",
+      },
     },
   },
   plugins: [],

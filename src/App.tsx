@@ -1,4 +1,4 @@
-import Home from "./features/home";
+import Home from "./features/home/home";
 
 function App() {
   return <Home />;
