@@ -8,7 +8,7 @@ const Hero = () => {
             <h1 className=" text-[82px] font-dinBold m-0 text-white">
               THE BEST FOODIE
             </h1>
-            <h1 className=" text-[115px] font-dinBold m-0 text-white">
+            <h1 className=" md:text-[115px] text-[90px]  font-dinBold m-0 text-white">
               EXPERIENCE
             </h1>
             <p className="font-dinBold m-0 text-white text-[35px]">
