@@ -1,6 +1,6 @@
 import Card from "./components/card";
 import "./popular-recipes.scss";
-import data from "./data.json";
+import data from "./data.js";
 const PopularRecipes = () => {
   return (
     <>
@@ -26,8 +26,8 @@ const PopularRecipes = () => {
         </div>
 
         <div className="px-10 my-16 grid grid-cols-4 gap-5">
-          {data?.result &&
-            data?.result.map(
+          {data &&
+            data.map(
               ({ title, description, chefChoice, servings, id, img }) => {
                 {
                   {
