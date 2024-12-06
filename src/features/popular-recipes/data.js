@@ -1,8 +1,13 @@
-module.exports = [
+import p1Img from "../../assets/images/p-1.png";
+import p2Img from "../../assets/images/p-2.png";
+import p3Img from "../../assets/images/p-3.png";
+import p4Img from "../../assets/images/p-4.png";
+
+const data = [
   {
     id: 1,
     servings: 4,
-    img: "../../assets/images/p-4.png",
+    img: p1Img,
     chefChoice: true,
     title: "CHARRED BROCCOLI & CHEAT’S VEGGIE ROMESCO TOAST",
     description:
@@ -11,7 +16,7 @@ module.exports = [
   {
     id: 2,
     servings: 2,
-    img: "../../assets/images/p-2.png",
+    img: p2Img,
     chefChoice: false,
     title: "PINEAPPLE FRUIT SALAD WITH FRESH CREAM",
     description:
@@ -20,7 +25,7 @@ module.exports = [
   {
     id: 3,
     servings: 5,
-    img: "../../assets/images/p-3.png",
+    img: p3Img,
     chefChoice: true,
     title: "CHEESE, SPINACH & MUSHROOM STUFFED CHI …",
     description:
@@ -29,10 +34,12 @@ module.exports = [
   {
     id: 4,
     servings: 2,
-    img: "../../assets/images/p-4.png",
+    img: p4Img,
     chefChoice: false,
     title: "FETA AND PEACH COUSCOUS",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
   },
 ];
+
+export default data;
