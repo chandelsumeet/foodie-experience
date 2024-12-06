@@ -1,5 +1,5 @@
 import "./collaborate-with-us.scss";
-import geoImg from "../../../assets/Images/geometric.jpg";
+import geoImg from "../../assets/Images/geometric.jpg";
 const CollaborateSection = () => {
   return (
     <div className="bg-primary py-8 md:px-6 px-4 flex md:flex-row justify-around md:items-end flex-col items-center">
