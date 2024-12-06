@@ -1,7 +1,7 @@
 # Foodie
 
 Experience food like never before
-![til](/food-experience.png)
+![Food Experience](https://github.com/chandelsumeet/foodie-experience/blob/main/public/food-experience.gif)
 
 ## Tech Stack
 
