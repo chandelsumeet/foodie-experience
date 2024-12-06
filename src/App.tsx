@@ -6,6 +6,7 @@ import CollaboratePage from "./features/collaborateSection/collaboratePage";
 const App = () => (
   <ReactFullpage
     //fullpage options
+    credits={{ enabled: false }}
     licenseKey={"YOUR_KEY_HERE"}
     scrollHorizontally={true}
     scrollingSpeed={1000} /* Options here */
