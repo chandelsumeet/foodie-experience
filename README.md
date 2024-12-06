@@ -1,6 +1,7 @@
 # Foodie
 
 Experience food like never before
+![til](/food-experience.png)
 
 ## Tech Stack
 
