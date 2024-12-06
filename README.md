@@ -10,6 +10,36 @@ Experience food like never before
 - Typescript
 - Tailwind , SASS
 
+## About Repository
+
+This is repository is built for food experience website.
+
+## How to run this project
+
+Clone this project
+
+```sh
+git clone https://github.com/chandelsumeet/foodie-experience.git
+```
+
+Install dependencies
+
+```sh
+npm i
+```
+
+Run project locally
+
+```sh
+npm run dev
+```
+
+On your browser go to
+
+```sh
+ http://localhost:5173/
+```
+
 ## Authors
 
 - [@chandelsumeet](https://github.com/chandelsumeet)
