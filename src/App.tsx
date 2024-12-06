@@ -10,7 +10,7 @@ const App = () => (
     licenseKey={"YOUR_KEY_HERE"}
     scrollHorizontally={true}
     scrollingSpeed={1000} /* Options here */
-    render={({ state, fullpageApi }: any) => {
+    render={() => {
       return (
         <ReactFullpage.Wrapper>
           <div className="section min-h-screen">
