@@ -2,6 +2,7 @@ import ReactFullpage from "@fullpage/react-fullpage";
 import Home from "./features/home/home";
 import PopularRecipes from "./features/popular-recipes/popular-receipes";
 import CollaboratePage from "./features/collaborateSection/collaboratePage";
+import "./App.css";
 
 const App = () => (
   <ReactFullpage
@@ -13,13 +14,13 @@ const App = () => (
     render={() => {
       return (
         <ReactFullpage.Wrapper>
-          <div className="section min-h-screen">
+          <div className="section md:min-h-screen ">
             <Home />
           </div>
-          <div className="section min-h-screen">
+          <div className="section md:min-h-screen">
             <PopularRecipes />
           </div>
-          <div className="section min-h-screen">
+          <div className="section md:min-h-screen">
             <CollaboratePage />
           </div>
         </ReactFullpage.Wrapper>

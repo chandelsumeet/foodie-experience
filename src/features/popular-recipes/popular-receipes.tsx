@@ -25,7 +25,7 @@ const PopularRecipes = () => {
           </div>
         </div>
 
-        <div className="px-10 my-16 grid grid-cols-4 gap-5">
+        <div className="px-10 my-16 grid md:grid-cols-4 gap-5 sm:grid-cols-1">
           {data &&
             data.map(
               ({ title, description, chefChoice, servings, id, img }: any) => {

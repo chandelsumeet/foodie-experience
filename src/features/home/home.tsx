@@ -2,7 +2,7 @@ import Hero from "../../components/hero/hero";
 import Navbar from "../../components/navbar/navbar";
 const Home = () => {
   return (
-    <div>
+    <div className="">
       <Navbar />
       <Hero />
     </div>
