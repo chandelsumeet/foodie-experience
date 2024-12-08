@@ -10,6 +10,12 @@ Experience food like never before
 - Typescript
 - Tailwind , SASS
 
+## [Link Live Url](https://food-experience.netlify.app/)
+
+```sh
+https://food-experience.netlify.app/
+```
+
 ## About Repository
 
 This is repository is built for food experience website.
