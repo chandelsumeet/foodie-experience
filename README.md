@@ -46,6 +46,12 @@ On your browser go to
  http://localhost:5173/
 ```
 
+## How to build the project
+
+```sh
+npm run build
+```
+
 ## Authors
 
 - [@chandelsumeet](https://github.com/chandelsumeet)
