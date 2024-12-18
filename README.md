@@ -10,7 +10,7 @@ Experience food like never before
 - Typescript
 - Tailwind , SASS
 
-## [Link Live Url](https://food-experience.netlify.app/)
+## [Link Live Url](https://foodie-experience.netlify.app/)
 
 ```sh
 https://food-experience.netlify.app/
@@ -44,6 +44,12 @@ On your browser go to
 
 ```sh
  http://localhost:5173/
+```
+
+## How to build the project
+
+```sh
+npm run build
 ```
 
 ## Authors
