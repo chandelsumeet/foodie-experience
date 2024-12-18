@@ -1,7 +1,7 @@
 # Foodie
 
 Experience food like never before
-![Food Experience](https://github.com/chandelsumeet/foodie-experience/blob/main/public/food-experience.gif)
+![Food Experience](https://github.com/chandelsumeet/foodie-experience/blob/main/public/foodie-experience.gif)
 
 ## Tech Stack
 
@@ -10,7 +10,7 @@ Experience food like never before
 - Typescript
 - Tailwind , SASS
 
-## [Link Live Url](https://foodie-experience.netlify.app/)
+## [Link Live Url](https://food-experience.netlify.app/)
 
 ```sh
 https://food-experience.netlify.app/
