@@ -13,7 +13,7 @@ const Home = () => {
       <div className="absolute top-[40%] left-[0]">
         <img src={sliderImg} alt="slider img" />
       </div>
-      <div className="md:absolute md:top-[20%] md:left-[18%] md:block sm:hidden">
+      <div className="hidden md:block md:absolute md:top-[20%] md:left-[18%] md:block sm:hidden">
         <img src={logoImg} alt="logo img" />
       </div>
     </div>

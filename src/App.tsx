@@ -1,8 +1,9 @@
 import ReactFullpage from "@fullpage/react-fullpage";
 import Home from "./features/home/home";
 import PopularRecipes from "./features/popular-recipes/popular-receipes";
-import CollaboratePage from "./features/collaborateSection/collaboratePage";
+import CollaboratePage from "./features/collaborate-section/collaborate-page";
 import "./App.css";
+import MeetPage from "./features/meet-out-community/meet-page";
 
 const App = () => (
   <ReactFullpage
@@ -16,6 +17,9 @@ const App = () => (
         <ReactFullpage.Wrapper>
           <div className="section md:min-h-screen ">
             <Home />
+          </div>
+          <div className="section md:min-h-screen ">
+            <MeetPage />
           </div>
           <div className="section md:min-h-screen">
             <PopularRecipes />
